@@ -7,8 +7,17 @@ First some libraries are loaded.
 ## Load the data
 Then the data is loaded in and converted to tables that dplyr can work with.
 
+## Ex.1 Merging
 The databases are then merged into one big database.
+
+## Ex.2 Calculate mean and standard deviation
 Consequently the mean and standard deviation of the experiments are calculated.
-In the third part, the numeric values describing the type of activity are changed into actual descriptions as defined in activity_labels.txt.
-In ex.4, the variable names are changed according to the labels in features.txt. Originally these hold some non-allowed characters so the function make.names has to be called to clean this up.
+
+## Ex. 3 Use descriptive names
+The numeric values describing the type of activity are changed into actual descriptions as defined in activity_labels.txt.
+
+## Ex. 4 Change variable names
+The variable names are changed according to the labels in features.txt. Originally these hold some non-allowed characters so the function make.names has to be called to clean this up.
+
+## Ex. 5 Create a tidy dataset
 Lastly, the data is grouped by activity and subject, and the mean for each if the variables in each of these groups is calculated
