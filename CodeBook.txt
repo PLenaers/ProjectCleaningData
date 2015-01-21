@@ -1,4 +1,5 @@
 Code Book Wearable Computing
+
 Activity
      Activity
          1 WALKING 
