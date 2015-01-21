@@ -17,7 +17,7 @@ Consequently the mean and standard deviation of the experiments are calculated.
 The numeric values describing the type of activity are changed into actual descriptions as defined in activity_labels.txt.
 
 ## Ex. 4 Change variable names
-The variable names are changed according to the labels in features.txt. Originally these hold some non-allowed characters so the function make.names has to be called to clean this up.
+The variable names are changed according to the labels in features.txt. There are duplicate entries indicating that there are duplicate columns. These are removed. The names also hold some non-allowed characters so the function make.names has to be called to clean this up.
 
 ## Ex. 5 Create a tidy dataset
-Lastly, the data is grouped by activity and subject, and the mean for each if the variables in each of these groups is calculated
+Lastly, the data is grouped by activity and subject, and the mean for each if the variables in each of these groups is calculated with the function summarise_each.
